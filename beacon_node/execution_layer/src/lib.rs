@@ -2158,8 +2158,8 @@ pub enum BlobTxConversionError {
     MaxPriorityFeePerGasMissing,
     /// Missing the `access_list` field.
     AccessListMissing,
-    /// Missing the `max_fee_per_data_gas` field.
-    MaxFeePerDataGasMissing,
+    /// Missing the `max_fee_per_blob_gas` field.
+    MaxFeePerBlobGasMissing,
     /// Missing the `versioned_hashes` field.
     VersionedHashesMissing,
     /// `y_parity` field was greater than one.
